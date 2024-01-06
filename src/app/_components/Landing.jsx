@@ -1,6 +1,6 @@
-export default function Landing({children}) {
+export default function Landing({children, customCSS}) {
   return (
-    <div className='min-h-screen'>
+    <div className={`min-h-screen ${customCSS}`}>
       {children}
     </div>
   )
